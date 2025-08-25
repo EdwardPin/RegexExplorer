@@ -7,10 +7,10 @@
 
 import re
 
-texto = "En 2023, había 15 estudiantes y 3 profesores."
+texto = "En 2025, había 30 estudiantes y 7 profesores, al igual que -2 directores"
 
 # Expresión regular para enteros (positivos y negativos)
-patron = r"-?\\b\\d+\\b"
+patron = r"-?\b\d+\b"
 
 # Buscar todos los enteros
 enteros = re.findall(patron, texto)
